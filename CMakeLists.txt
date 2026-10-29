@@ -11,6 +11,10 @@ add_executable(tracker
   src/main.cpp
   include/data_types.hpp
   include/test_frames.hpp
+  include/normal_armor_tracker.hpp
+  include/rotate_armor_tracker.hpp
+  include/target_manager.hpp
+  include/tracker_base.hpp
 )
 
 target_include_directories(tracker PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
